@@ -1,0 +1,96 @@
+.header-class {
+    padding: 10px;
+    background-color: blanchedalmond;
+    text-align: center;
+}
+
+#Menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    list-style: none;
+    padding: 20px;
+    margin: 0px;
+    background-color: lightsalmon
+}
+
+#Menu a:hover {
+    background-color: black;
+    color: lightsalmon;
+}
+
+#Menu ul li {
+    display: flex;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+.product-image {
+    display: flex;
+    height: auto;
+    background-color: blanchedalmond
+}
+
+.product-image h2 {
+    text-align: center;
+    color: lightsalmon;
+    text-shadow: 2px 2px 4px lightgray;
+    font-weight: bold;
+    padding: 20px;
+    margin: 0;
+    background-color: blanchedalmond
+}
+
+.product-image img {
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.Tonkotsu-Ramen {
+    color: lightsalmon;
+}
+
+.Shoyu-Ramen {
+    color: lightsalmon;
+}
+
+.Miso-Ramen {
+    color: lightsalmon;
+}
+
+.Veggie-Ramen {
+    color: lightsalmon;
+}
+
+#Opening-Hours {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    background-color: lightsalmon
+}
+
+.table {
+    width: 100%;
+}
+
+.table tr th,
+.table tr td {
+    flex: 1;
+    padding: 10px;
+    text-align: left;
+    margin: 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.footer {
+    padding: 20px;
+    margin: 0px;
+    background-color: blanchedalmond
+}
+
+.footer p {
+    text-align: center;
+    color: lightsalmon
+}
